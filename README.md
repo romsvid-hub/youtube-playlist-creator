@@ -2,17 +2,20 @@
 
 A Chrome Extension that automatically curates a personal playlist from your YouTube subscriptions — only new videos, no Shorts, no livestreams.
 
-Instead of scrolling through your feed, you get a clean playlist of up to 20 latest videos from channels you choose. The list updates every 24 hours and lets you manage the order, remove videos, and play them without leaving the extension.
+## The problem it solves
+
+Keeping up with YouTube subscriptions takes time. To build a watchlist manually, you'd need to visit each channel, find recent videos, and repeat for every subscription you care about. The more channels you follow — the more time it wastes.
+
+YouTube Playlist Creator eliminates that entirely. Instead of searching, you get a ready playlist of the latest videos from the channels you choose — automatically, every day. One click opens it as a queue in YouTube. You skip straight to watching.
 
 ## Features
 
-- **Smart playlist** — up to 20 new videos from selected subscriptions, updated every 24h
-- **Filter** — no Shorts, no livestreams, only regular videos
+- **Auto-curated playlist** — up to 20+ new videos from selected subscriptions, updated every 24h
+- **No Shorts, no livestreams** — only regular videos
 - **New badge** — green dot marks unwatched videos, disappears after viewing
-- **Drag & drop** — reorder playlist manually or let it stay chronological
+- **Drag & drop** — reorder playlist manually or keep it chronological
 - **Undo delete** — restore removed videos within a 15-minute session
-- **Background playback** — audio continues when extension is closed
-- **Floating mini player** — play/pause, next, track title without opening the extension
+- **Open in YouTube** — one click sends the full playlist as a queue to YouTube
 - **Sync with YouTube tab** — if you open a video on YouTube, it syncs with the playlist
 - **Persistent settings** — selected channels and preferences are saved between sessions
 - **Google auth** — sign in with your existing Google account, silent token refresh
@@ -28,16 +31,17 @@ Instead of scrolling through your feed, you get a clean playlist of up to 20 lat
 2. Open Chrome and go to 
 3. Enable **Developer mode** (toggle in the top right corner)
 4. Click **Load unpacked**
-5. Select the folder with the downloaded repository
+5. Select the downloaded folder
 6. The extension icon will appear in your Chrome toolbar
 7. Click the icon → **Sign in with Google** → allow access to YouTube
 
 ## Setup
 
 1. Click the extension icon
-2. Open the accordion **"Обрати відстеження підписки"**
+2. Open **"Обрати відстеження"** accordion
 3. Check the channels you want to track
 4. Save — your playlist will appear within seconds
+5. Click **▶ Відкрити в YouTube** to start watching
 
 ## Tech stack
 
